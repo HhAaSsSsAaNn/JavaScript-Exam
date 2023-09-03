@@ -1,0 +1,76 @@
+.nav-link{
+    color: white !important;
+}
+body{
+    background-color: black;
+    font-family: cursive;
+}
+
+.nav-item{
+    position: relative;
+    transition: 1s;
+}
+.nav-item a{
+    cursor: pointer;
+} 
+
+.col-side{
+    width: 20%;
+}
+
+.content{
+    margin-left: 5%;
+}
+.offset-slide{
+    margin-left: 25%;
+}
+.side-nav-menu{
+    width: 340;
+}
+.form-field{
+    transition: 1s;
+}
+
+#search{
+    display: none;
+    transition: 1s;
+}
+
+.meal-img, .cat-img{
+    cursor: pointer;
+    
+}
+.meal-name, .cat-name{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+    text-align: center;
+    cursor: pointer;
+}
+.meal-name h3{
+    margin-top: 45%;
+}
+
+i{
+    cursor: pointer;
+}
+
+.ingreds{
+    line-height: 2.4rem;
+}
+
+#instructions{
+    display: none;
+    transition: 1s;
+}
+.area{
+    cursor: pointer;
+}
+#area, #home, #ingr{
+    transition: 1s;
+}
+

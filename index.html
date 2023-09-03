@@ -1,0 +1,130 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+
+    </head>
+    <body>
+        <div class="side-nav-menu min-vh-100 position-fixed d-flex top-0 p-0">
+            <div class="px-0 bg-dark navMenu">
+                <div class="min-vh-100 d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a onclick="homeClicked()" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="searchClicked()" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">Search</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="catClicked()" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">Categories</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="areaClicked()" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">Area</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="ingClicked()" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">Ingredients</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">Contact Us</span>
+                            </a>
+                        </li>
+                       
+                    </ul>
+                    <hr>
+                    <div class="nav-footer pb-4">
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="footer">
+                            <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-side px-0 bg-white">
+                <div class="py-5 min-vh-100 nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+                    <img class="w-100" src="images/yummy.png" alt="" srcset="">
+                    <i class="fa-solid open-close-icon fa-2x fa-align-justify navDisplay"></i>
+                    <div>
+                        <i class="fa-solid fa-globe d-block"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="search" class="offset-slide content py-5">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-5 py-3 form-field">
+                       <input id="searchByName" class="form-control" type="text">
+                    </div>
+                    <div class="col-lg-5 py-3 form-field">
+                        <input id="searchByFirstLetter" class="form-control" type="text" maxlength="1">
+                     </div>
+                </div>
+                <div class="row gy-4 mealsDiv">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="instructions" class="offset-slide content py-5">
+            <div class="container">
+                <div class="row meal-details">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="category" class="offset-slide content py-5">
+            <div class="container">
+                <div class="row  gy-4 categories">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="home" class="offset-slide content py-5">
+            <div class="container">
+                <div class="row  gy-4 homeMealsDiv">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="area" class="offset-slide content py-5">
+            <div class="container">
+                <div class="row  gy-4 areasDiv">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="ingr" class="offset-slide content py-5">
+            <div class="container">
+                <div class="row  gy-4 ingDiv">
+                    
+                </div>
+            </div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>
